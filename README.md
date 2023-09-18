@@ -1,4 +1,4 @@
-# Benvenuti nel mio Progetto Esempi Web
+# Introduzione a PHP (e una spolverata di JavaScript)
 
 Questo progetto contiene una serie di esempi che illustrano concetti fondamentali per lo sviluppo web, inclusi HTML, JavaScript e PHP.
 
