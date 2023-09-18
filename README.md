@@ -27,12 +27,13 @@ Per eseguire questi esempi sul tuo sistema locale, segui questi passaggi:
    - Dopo aver installato XAMPP, troverai una cartella chiamata "htdocs" nella directory di installazione (solitamente in C:\xampp\htdocs su Windows).
    - Questa cartella è la radice del server web locale, dove dovrai posizionare il tuo progetto.
 
-3. **Clona il Repository**:
-   - Clone questo repository GitHub nella cartella "htdocs" di XAMPP o crea una nuova cartella per il progetto all'interno di "htdocs".
-   - Assicurati di avere Git installato sul tuo sistema.
-   - git clone https://github.com/ITIS-Cannizzaro/IntroPHP.git
+3. **Codice per clonare il Repository direttamente nella directory**:
+   '''shell
+   cd c:\Xampp\htdocs
+   git clone https://github.com/ITIS-Cannizzaro/IntroPHP.git
+   '''
 
-4. **Esegui XAMPP**:
+5. **Esegui XAMPP**:
 - Avvia XAMPP e accendi i moduli Apache e MySQL dal pannello di controllo di XAMPP.
 
 5. **Visualizza i Tuoi Esempi**:
