@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pagina JavaScript Dinamica</title>
+</head>
+
+<body>
+    <h1>Benvenuti nella pagina JavaScript dinamica !</h1>
+    <h2>(solo lato client...)</h2>
+    <p>
+        Io sono una pagina dinamica con Javascript, posso cambiare il mio contenuto
+        in tempo reale direttamente sul tuo browser perch&eacute; &egrave; lui ad elaborare il mio codice,
+        ma il refresh fa ricominciare tutto daccapo (cosa che va comunque bene per questo esempio)
+        io mi muovo moooolto pi&ugrave; velocemente &#x1F604;;
+    </p>
+
+
+    <div id="orario"> <!-- Metto il div (per ora vuoto) che verrà riempito dallo script --> </div>
+
+    <script>
+        // Funzione per aggiornare l'orario in tempo reale
+        function aggiornaOrario() {
+            var orario = new Date();
+            var ore = orario.getHours();
+            var minuti = orario.getMinutes();
+            var secondi = orario.getSeconds();
+
+            // Formattiamo l'orario come "HH:MM:SS"
+            var orarioFormattato = "L'ora corrente &egrave;: " + pad(ore) + ":" + pad(minuti) + ":" + pad(secondi);
+
+            // Aggiorniamo il contenuto della divisione "orario"
+            document.getElementById("orario").innerHTML = orarioFormattato;
+        }
+
+        // Funzione per aggiungere uno zero davanti a numeri < 10
+        function pad(numero) 
+        {
+            return (numero < 10 ? "0" : "") + numero;
+        }
+
+        // Aggiorniamo l'orario ogni secondo
+        setInterval(aggiornaOrario, 1000);
+
+        // Eseguiamo la funzione per la prima volta
+        aggiornaOrario();
+    </script>
+    <p>L'orario qui sopra cambier&agrave; in tempo reale ogni secondo.</p>
+</body>
+
+</html>
