@@ -28,10 +28,10 @@ Per eseguire questi esempi sul tuo sistema locale, segui questi passaggi:
    - Questa cartella è la radice del server web locale, dove dovrai posizionare il tuo progetto.
 
 3. **Codice per clonare il Repository direttamente nella directory**:
-   '''shell
+   ```shell
    cd c:\Xampp\htdocs
    git clone https://github.com/ITIS-Cannizzaro/IntroPHP.git
-   '''
+   ```
 
 5. **Esegui XAMPP**:
 - Avvia XAMPP e accendi i moduli Apache e MySQL dal pannello di controllo di XAMPP.
