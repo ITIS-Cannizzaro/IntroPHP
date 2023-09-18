@@ -37,7 +37,7 @@ Per eseguire questi esempi sul tuo sistema locale, segui questi passaggi:
 - Avvia XAMPP e accendi i moduli Apache e MySQL dal pannello di controllo di XAMPP.
 
 5. **Visualizza i Tuoi Esempi**:
-- Apri il tuo browser web e visita `http://localhost/IntroPHP/index.html` per iniziare a esplorare gli esempi.
+- Apri il tuo browser web e visita [http://localhost/IntroPHP/index.html](http://localhost/IntroPHP/index.html) per iniziare a esplorare gli esempi.
 
 Ora sei pronto per eseguire e sperimentare gli esempi nel tuo ambiente locale!
 
